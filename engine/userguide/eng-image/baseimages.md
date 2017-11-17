@@ -36,7 +36,7 @@ It can be as simple as this to create an Ubuntu parent image:
 
     $ sudo debootstrap xenial xenial > /dev/null
     $ sudo tar -C xenial -c . | docker import - xenial
-
+1
     a29c15f1bf7a
 
     $ docker run xenial cat /etc/lsb-release
